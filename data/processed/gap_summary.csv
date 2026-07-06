@@ -1,0 +1,6 @@
+Control Gap Category,Breach Count,Total Individuals,Freq Share %,Impact Share %,Impact/Freq Ratio,Median Individuals,Severity Tier
+Technical Safeguard Failure,3648,565544899,60.50754685685852,91.55693210489173,1.5131489683673032,8394.0,Disproportionate Risk
+Physical/Technical Safeguard Failure,808,19609259,13.401890860839277,3.174573049929033,0.23687501136166014,2000.0,Under-represented Risk
+Physical/Administrative Safeguard Failure,97,2044790,1.608890363244319,0.33103419291694747,0.2057531081542553,2000.0,Under-represented Risk
+Administrative Safeguard Failure,1429,29851630,23.702106485320947,4.832726218489594,0.20389437628603052,1708.0,Under-represented Risk
+Unclassified,47,646942,0.7795654337369382,0.10473443377269832,0.13434976621608472,1920.0,Under-represented Risk
