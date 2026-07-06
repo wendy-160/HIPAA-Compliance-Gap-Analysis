@@ -1,0 +1,28 @@
+HIPAA BREACH ANALYSIS - KEY FINDINGS
+============================================================
+Dataset: 6,029 breaches | 2013-2026
+Total individuals affected: 617,697,520
+============================================================
+
+[1.1] Most common breach type: 'Hacking/IT Incident' - 3,648 breaches (60.51% of all records)
+
+[1.2] Technical Safeguard Failure dominates across all entity types (Business Associate: 65.3%, Health Plan: 52.9%). Health Plans show a notably higher Administrative Safeguard Failure (38.6%) vs Business Associates (21.2%), suggesting weaker policy and access controls in plan administration.
+
+[1.3] Hacking/IT incidents co-occur predominantly with Network Server and Email locations, indicating infrastructure and communication channel vulnerabilities are the primary technical attack surface.
+
+[2.1] 'Hacking/IT Incident' has the highest median individuals affected per breach (8,394), making it the highest-severity breach category by impact.
+
+[2.2] Hacking/IT Incident has a higher log-scale median breach size (9.04) vs Unauthorized Access/Disclosure (7.44), and a wider IQR - confirming greater variability and more catastrophic outliers.
+
+[2.3] BA-involved breaches have a median of 4,500 individuals affected vs 3,859 without BA involvement - difference is statistically significant (p < 0.001).
+
+[3.1] Hacking/IT incidents show a significant upward trend (slope=40.8 breaches/year, R²=0.538).
+
+[3.2] Physical breaches (Theft, Loss, Improper Disposal) are declining (slope=-12.2/year, p < 0.001), suggesting improving physical safeguard compliance over time.
+
+[3.3] Mega-breaches (>1M individuals affected) peaked in 2023 with 37 events, highlighting concentrated catastrophic-risk years.
+
+[4.1] 'Technical Safeguard Failure' is the most disproportionately impactful control gap - its impact share is 1.51x its frequency share, indicating systemic under-mitigation of this risk category.
+
+[4.2] Of 5 control gap categories, 1 is classified as Disproportionate Risk ('Technical Safeguard Failure', ratio=1.51x) and 4 as Under-represented Risk, confirming a single dominant gap drives the majority of breach impact.
+
