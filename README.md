@@ -47,7 +47,20 @@ Four-part analysis:
 - **Gap Identification** - comparing frequency share vs. impact share by safeguard category to flag disproportionate risk
 
 ## Key Findings
-![Technical](.../03_4b_gap_summary_table.png)
+![TechnicalFailure](reports/figures/03_4b_gap_summary_table_Technical_Safeguard_Failure.png)
+![AdministrativeFailure](reports/figures/03_4b_gap_summary_table_Administrative_Safeguard_Failure.png)
+
+- Hacking/IT Incidents grew from 10.4% of annual breaches in 2013 to ~80% by 2022-2024, while physical breach types (theft, loss, improper disposal) declined steadily over the same period
+- Breaches involving a business associate affect significantly more individuals (median 4,500) than those without (median 3,859).
+- Risk composition varies by entity type: Business Associates skew heavily toward Technical Safeguard Failure (65.3%), while Health Plans show a notably higher share of Administrative Safeguard Failure (38.6%).
+
+Full Findings, notes, and recommendations are in the summary and `key_findings.txt`
+
 ## Tech Stack
+- **Python:** pandas, numpy, matplotlib, seaborn, scipy
+- **Jupyter**
+- Data source: HHS OCR Breach Portal
 
 ## Data Limitations
+- Breaches can take up to 24 months to be investigated and finalized by OCR, so 2024-2026 counts likely understate the true totals for those years.
+- Safeguard category mappings are analytical approximations based on the most likely control failure implied by each breach type/location. They are not official OCR determinations.
